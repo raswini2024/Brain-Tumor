@@ -4,7 +4,7 @@ This project uses deep learning and transfer learning techniques to classify bra
 
 ---
 
-## 📌 Overview
+##  Overview
 
 - **Objective**: Automatically classify brain tumors from MRI images.
 - **Model**: Transfer learning using **MobileNetV2**.
@@ -13,7 +13,7 @@ This project uses deep learning and transfer learning techniques to classify bra
 
 ---
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 - Python
 - TensorFlow / Keras
@@ -24,7 +24,7 @@ This project uses deep learning and transfer learning techniques to classify bra
 
 ---
 
-## 🗂️ Dataset Structure
+##  Dataset Structure
 
 ```
 
@@ -40,7 +40,7 @@ Each folder should contain MRI images of the respective class.
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 ### 1. Clone the repository
 
@@ -55,7 +55,7 @@ cd brain-tumor-classification
 pip install tensorflow numpy opencv-python scikit-learn matplotlib seaborn gradio
 ```
 
-> ✅ Or run it directly in **Google Colab** with Google Drive access.
+>  Or run it directly in **Google Colab** with Google Drive access.
 
 ### 3. Set dataset path
 
@@ -67,7 +67,7 @@ DATASET_PATH = '/content/drive/MyDrive/Brain Tumor Segmentation/Training'
 
 ---
 
-## 🧬 Model Summary
+## Model Summary
 
 * Base: `MobileNetV2` (pre-trained on ImageNet)
 * Added Layers:
@@ -79,7 +79,7 @@ DATASET_PATH = '/content/drive/MyDrive/Brain Tumor Segmentation/Training'
 
 ---
 
-## 📈 Training
+## Training
 
 * Image Size: `128x128`
 * Batch Size: `16`
@@ -90,7 +90,7 @@ DATASET_PATH = '/content/drive/MyDrive/Brain Tumor Segmentation/Training'
 
 ---
 
-## 📊 Evaluation
+##  Evaluation
 
 * Accuracy and loss plots
 * Classification report
@@ -98,7 +98,7 @@ DATASET_PATH = '/content/drive/MyDrive/Brain Tumor Segmentation/Training'
 
 ---
 
-## 🌐 Gradio Interface
+##  Gradio Interface
 
 Launch an interactive UI to classify brain tumor images:
 
@@ -110,7 +110,7 @@ Users can upload an MRI image and get predictions with confidence scores.
 
 ---
 
-## ✅ Output Example
+##  Output Example
 
 ```
 Prediction:
@@ -122,7 +122,7 @@ Prediction:
 
 ---
 
-## 📌 Future Work
+##  Future Work
 
 * Save and load trained model
 * Add real-time data augmentation
